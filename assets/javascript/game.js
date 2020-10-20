@@ -1,12 +1,11 @@
 let resetButton = document.querySelector("#reset-button");
-let resetNum = document.querySelector(#num-resets");
+let resetNum = document.querySelector("#num-resets");
 let count = 0;
 resetButton.addEventListener("click",function(){
     count += 1;
 
 if (teamOneGoal.innerHTML > teamTwoGoal.innerHTML) {alert("Team One Won!");}
-if (teamOneGoal.innerHTML < teamTwoGoal.innerHTML) {alert("team Two won!");}
-if {alert("Draw!")}
+if (teamOneGoal.innerHTML < teamTwoGoal.innerHTML) {alert("Team Two Won!");}
 
 resetNum.innerHTML = count;
 teamOneShoot.innerHTML = 0;
